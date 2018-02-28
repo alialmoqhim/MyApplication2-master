@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ibrahimalhassan.myapplication.affairs">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="362dp"
+        android:layout_height="169dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="مرحبا بكم في شؤون الطلاب  والتسجيل ويشرفنا خدمتكم لمعرفة التقويم الدراسي الرجاء الضغط  "
+        android:textSize="24sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="هنا"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="96dp" />
+</RelativeLayout>
